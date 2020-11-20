@@ -1,1 +1,114 @@
 /* Add your own styles */
+background{
+    background-color: lightgray;
+}
+
+header{
+    background-color: navy;
+    padding: 2%;
+	text-align: center;
+	font-style: bold;
+	/* display: flex; */
+	
+}
+
+img{
+	
+	width: 160px;
+	height: 160px;
+	border-radius: 40%;
+	padding: 10px;
+	align: left;
+}
+
+container{
+	text-align: center;
+}
+
+input{
+	width: 600px;
+	height: 40px;
+	padding: 15px;
+	outline-style: none;
+	border-style: none;
+	box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+}
+
+/* main{
+	padding: 30px;
+} */
+
+#result{
+	padding: 30px;
+}
+    
+header h1{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+
+#lookup{
+    background-color: darkgreen;
+    color: honeydew;
+	border-style: none;
+    outline-style: none;
+	width: 215px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+#lookupcities{
+    background-color: darkblue;
+    color: honeydew;
+	width: 215px;
+    height: 40px;
+	border-style: none;
+    outline-style: none;
+    border-radius: 6px;
+}
+
+lookupcities: hover{
+	background-color: white;
+}
+
+#controls{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+    width: 100%;
+    text-align:center;
+    padding-top: 5%;
+	justify-content: center;
+}
+
+#controls label{
+    color: gray;
+}
+
+#buttons{
+    padding-top: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 18px;
+}
+
+table th, table td {
+	text-align: left;
+	padding: 5px;
+}
+
+table tr:nth-child(even){
+	background-color: lemonchiffon;
+}
+
+table th {
+	background-color: cadetblue;
+	text-align: center;
+	color: black;
+	padding-bottom: 12px;
+	padding-top: 12px;
+}
